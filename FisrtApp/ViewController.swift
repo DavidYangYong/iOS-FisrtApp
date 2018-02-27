@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert(_ sender: Any) {
-        let alert = UIAlertController(title: "Greeting", message: "Hello World", preferredStyle:.alert)
+        let alert = UIAlertController(title: "Greeting", message: "Hello World1", preferredStyle:.alert)
         
         let action = UIAlertAction(title: "Ok", style:.default, handler: nil)
         
